@@ -35,8 +35,8 @@ public class Partida {
 
     //idetificador del segundo participante
     @NotNull(message = "El participante B no puede ser nulo")
-    @Column(name = "participante_a_id", nullable = false)
-    private Long participanteBid;
+    @Column(name = "participante_b_id", nullable = false)
+    private Long participanteBId;
 
     //ronda del torneo ne que se juega la partida
     @NotBlank(message = "la ronda no puede estar vacia")

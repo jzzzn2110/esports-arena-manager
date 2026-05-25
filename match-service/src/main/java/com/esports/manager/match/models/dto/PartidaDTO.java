@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 @ToString
 @NoArgsConstructor
 @AllArgsConstructor
-public class patidaDTO {
+public class PartidaDTO {
 
     @NotNull(message = "el torneo no puede estar vacio")
     private Long torneoId;

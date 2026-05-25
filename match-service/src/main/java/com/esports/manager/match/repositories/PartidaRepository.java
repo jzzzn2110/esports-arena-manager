@@ -20,6 +20,6 @@ public interface PartidaRepository extends JpaRepository<Partida, Long> {
     List<Partida> findByEstado(Boolean estado);
 
     //revisa si exsite una partida entre dos participantes en la misma ronda
-    boolean existsByTorneoIdAndParticipanteAIdAndParticipanteBIdAndRonda
-            (Long torneoId, String ronda, Long participanteAId, Long participanteBId);
+    boolean existsByTorneoIdAndParticipanteAIdAndParticipanteBIdAndRonda(
+            Long torneoId, Long participanteAId, Long participanteBId, String ronda);
 }
