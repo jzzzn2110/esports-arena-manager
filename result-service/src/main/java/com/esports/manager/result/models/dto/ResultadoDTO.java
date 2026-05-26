@@ -16,7 +16,7 @@ public class ResultadoDTO {
     private Long partidaId;
 
     @NotNull(message = "El ganador no puede ser nulo")
-    private Boolean ganadorId;
+    private Long  ganadorId;
 
     @Min(value = 0, message = "el puntaje no puede ser negativo")
     private Integer puntajeA;

@@ -27,7 +27,7 @@ public class Resultado {
 
     @NotNull(message = "el ganador no puede ser nulo")
     @Column(name = "ganador_id", nullable = false)
-    private Long GanadorId;
+    private Long ganadorId;
 
     @Min(value = 0, message = "el puntaje puntaje no puede ser negativo")
     @Column(name = "puntaje_a" , nullable = false)
